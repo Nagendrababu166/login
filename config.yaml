@@ -11,7 +11,7 @@ data:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: postgres-secret
+  name: postgres-secret-gopi
 type: Opaque
 data:
   POSTGRES_PASSWORD: cGFzc3dvcmQxMjM= # base64 encoded "password123"
